@@ -2,8 +2,7 @@
 
 using namespace std;
 
-class general
-{
+class general{
 public: 
 	void general_public()
 	{
@@ -69,8 +68,7 @@ class C : protected general{
 	*/
 };
 
-int main()
-{
+int main() {
 	general g;
 	A a;
 	B b;
